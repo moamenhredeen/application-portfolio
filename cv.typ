@@ -15,11 +15,22 @@
 )
 #set par(justify: true)
 
+#let skill(percentage) = {
+	rect(
+		inset: 0pt,
+		width: 100%,
+		rect(
+			width: percentage,
+			height: 5pt,
+			fill: black
+		)
+	)
+}
 
 // content
-#align(center)[
+#align(left)[
 = Moamen Hraden
-
+Europastraße 20/1, 72510 Stetten am kalten Markt\
 moamenhredeen\@gmail.com |
 moamenhredeen.me/portfolio |
 github.com/moamenhredeen
@@ -30,7 +41,6 @@ github.com/moamenhredeen
 
 == Biography
 #line()
-
 I am a passionate software developer who thrives on tackling complex challenges and continuously learning new concepts.
 For me, software development isn't just a job—it's what I love to do most. 
 I’m always eager to dive deep into the latest frameworks, understanding their internals, and pushing my skills to the next level.
@@ -39,7 +49,6 @@ I find joy in refactoring code and am almost religious about maintaining clean, 
 
 == Experience
 #line()
-
 === Primion Technology GmbH | Java Developer #h(1fr)  Jan 2023 -- Present
 After working on the PSIM platform, I transitioned to the hardware department at Primion to help develop our embedded software platform. 
 In this role, I contributed to building a YAWL-based workflow management system for our devices. 
@@ -47,10 +56,7 @@ This shift allowed me to apply my software development skills to embedded system
 
 *Earned skills*: Software Architecture, Java, Gradle, Distributed Systems, MQTT, Workflow Engines, Workflow Management Systems 
 
-
-
 === Primion Technology GmbH | Software Engineer #h(1fr) Jan 2022 -- Jan 2023
-
 After completing my thesis, I joined Primion full-time and worked on their PSIM (Physical Security Information Management) platform.
 Initially, I focused on the mobile client, but soon transitioned to backend development, primarily using Spring.
 Later, I contributed to integrating OPC UA into our PSIM platform, enhancing its capabilities. 
@@ -60,7 +66,6 @@ I wrote custom Maven plugins and MSBuild tasks to automate common tasks, streaml
 *Earned skills*: Software Architecture, Java, Jakarta EE, Spring, Hibernate, (formally known as J2EE), JavaFX, .NET Core, Maven, MSBuild, DevOps, Apache Cordova
 
 === Primion Technology GmbH | Thesis #h(1fr) Apr 2021 -- Oct 2021
-
 For my thesis at Primion, I focused on interprocess communication for a new software platform that would run on access controllers, which manage access points. 
 My research involved comparing different architectural patterns, including multi-threading, RPC, and MQTT, to identify the most suitable approach for the platform. 
 I also explored the benefits of using Docker for embedded software, with our system running on Yocto Linux. 
@@ -70,7 +75,6 @@ This project deepened my understanding of system architecture and the unique cha
 
 
 === Primion Technology GmbH | Intern #h(1fr) Nov 2020 - Apr 2021
-
 During my Praxis semester, I interned as a Java Developer at Primion. 
 My main responsibility was migrating the company's in-house bug tracker to Jira Cloud. 
 To make this process efficient, I developed a Java tool that automatically transferred all our projects and users to Jira Cloud using their REST API.
@@ -79,7 +83,6 @@ This experience gave me hands-on knowledge of software migration and improved my
 *Earned skills*: Java, REST APIs, Linux Containers (Docker)
 
 === Vinnova | Fullstack Web Developer #h(1fr) Jan 2024 - Jun 2024
-
 While studying, I worked part-time as a Fullstack Web Developer at Vennova.
 I helped build software that made tunnel inspections in Sweden more efficient by analyzing 3D models of tunnels to find cracks in the support structure. 
 I worked on both the frontend and backend, using React and Node.js to create a user-friendly interface and ensure smooth performance. 
@@ -87,19 +90,28 @@ Although I didn’t work directly with the machine learning side of things, I co
 
 *Earned skills*: NodeJs, Express.js, REST APIs, ReactJs 
 
+
 == Education
 #line()
-
-=== Albstadt-Sigmaringen University | B.Eng. Computer Engineering #h(1fr) Mar 2018 - Oct 2021
-
-=== High School #h(1fr) Sep 2012 - May 2015
-Tafas, Syria
+=== B.Eng. Computer Engineering | Albstadt-Sigmaringen University  #h(1fr) Mar 2018 - Oct 2021
+=== High School  | Tafas, Syria #h(1fr) Sep 2012 - May 2015
 
 
-== Language 
+
+
+== Skills
 #line()
+- Software Architecture and System Design
+- Full Stack Web Development: 
+	ReactJs, Angular Svelte/Sveltekit. 
+	Classic mvc with Asp.Net Core (Razor Pages) and htmx 
+	classic Layer Archtecture using Spring Framework Asp.Net Core node js
+- Systems Programming: currently leanring rust
+- Desktop/Mobile Applications: ionic Flutter java fx avaloniaUI
 
-=== Albstadt-Sigmaringen University | B.Eng. Computer Engineering #h(1fr) Mar 2018 - Oct 2021
 
-=== High School #h(1fr) Sep 2012 - May 2015
-Tafas, Syria
+== Languages
+#line()
+- *Arabic*: Native speaker
+- *German*: Fluent
+- *English*: Fluent
