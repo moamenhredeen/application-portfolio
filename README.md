@@ -1,3 +1,4 @@
-# Moamen Hredeen CV
+# Application Portfolio
 
-[cv](./cv.pdf)
+- [cv](./cv.pdf)
+- [cv (german)](./cv_de.pdf)
