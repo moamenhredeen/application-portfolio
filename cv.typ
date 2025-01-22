@@ -1,5 +1,4 @@
 
-#show heading: set text(font: "Linux Biolinum")
 #show link: underline
 #set text( size: 10pt, font: "New Computer Modern")
 #set page(
@@ -52,7 +51,6 @@
   #v(-6pt)
   #line(length: 100%, stroke: .5pt)
 ]
-
 
 
 == Biography
