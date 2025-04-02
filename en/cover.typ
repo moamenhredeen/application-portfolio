@@ -31,7 +31,7 @@
   columns: (120pt, 1fr),
   inset: (top: 4em, left: 8em, right: 8em),
   column-gutter: 25pt,
-  image( "../images/moamen.jpg", width: 120pt,),
+  image( "./moamen.jpg", width: 120pt,),
   block()[
     = Moamen Hraden
 
