@@ -33,7 +33,7 @@
   inset: (bottom: 2em),
   radius: 4pt
 )[
-  #text("Moamen Hraden", size: 24pt)
+  #text("Moamen Hraden", size: 24pt, weight: 900)
   #grid(
     columns: (1fr, 1fr),
     gutter: 1em,
@@ -41,7 +41,7 @@
     linkedin-info("linkedin.com/in/moamen-hraden", black, url: "https://www.linkedin.com/in/moamen-hraden"),
     box()[#emoji.mail #link("mailto:moamen@hredeen.com", "moamen@hredeen.com")],
     github-info("github.com/moamenhredeen",black, url: "https://github.com/moamenhredeen"),
-    box()[#emoji.person #link("http://moamenhredeen.me/portfolio", "hredeen.com/portfolio")],
+    box()[#emoji.person #link("https://moamenhredeen.me", "moamenhredeen.me")],
     box()[#symbol("📞") #link("tel:+4915770169113", "+4915770169113")]
   )
 ]
