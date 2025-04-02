@@ -23,22 +23,6 @@
     )
   )
 }
-#let todo(body) = {
-  grid(
-    columns: (auto, 1fr),
-    inset: 4pt,
-    grid.cell(
-      fill: rgb(250, 140, 100, 150),
-      align: (center + horizon),
-      [*TODO*],
-    ),
-    grid.cell(
-      fill: rgb(250, 120, 100, 50),
-      [#body],
-    )
-  )
-}
-
 
 // -------------------------------- content --------------------------------
 
